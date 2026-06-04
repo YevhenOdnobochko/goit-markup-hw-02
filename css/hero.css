@@ -1,19 +1,21 @@
-#hero {
-    text-align: center;
-    padding: 120px 20px;
-    background-color: #2e2f42;
-    color: #ffffff;
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 188px 0;
 }
 
-#hero button {
-    margin-top: 20px;
-    padding: 12px 24px;
-    border: none;
-    background-color: #4d5ae5;
-    color: #ffffff;
+.hero-title {
+  font-size: 56px;
+  color: #ffffff;
 }
 
-#hero button:hover,
-#hero button:focus {
-    background-color: #404bbf;
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #404bbf;
 }

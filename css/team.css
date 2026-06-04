@@ -1,15 +1,12 @@
-#team {
-    padding: 80px 40px;
-    background-color: #f4f4fd;
+.team {
+  padding: 120px 0;
+  background-color: #f4f4fd;
 }
 
-#team ul {
-    display: flex;
-    gap: 20px;
+.team-title {
+  font-size: 36px;
 }
 
-#team li {
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
+.team-card {
+  background-color: #ffffff;
 }

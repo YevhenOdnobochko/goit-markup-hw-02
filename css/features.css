@@ -1,8 +1,12 @@
-#features {
-    padding: 80px 40px;
+⚙️ features.css
+.features {
+  padding: 120px 0;
 }
 
-#features ul {
-    display: flex;
-    gap: 20px;
+.features-title {
+  font-size: 36px;
+}
+
+.features-text {
+  color: #434455;
 }

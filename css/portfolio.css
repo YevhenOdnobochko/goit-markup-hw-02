@@ -1,9 +1,7 @@
-#portfolio {
-    padding: 80px 40px;
+.portfolio {
+  padding: 120px 0;
 }
 
-#portfolio ul {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+.portfolio-title {
+  font-size: 36px;
 }
