@@ -9,18 +9,15 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+ list-style: none;
+  
 }
 
-.portfolio-card {
-  width: 360px;
-}
+
 
 .portfolio-name {
   font-weight: 500;

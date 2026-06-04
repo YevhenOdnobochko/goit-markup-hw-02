@@ -19,8 +19,7 @@
 .nav-list,
 .contacts-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
+ 
 }
 
 .nav-link {
@@ -39,6 +38,11 @@
   color: #434455;
 }
 
-.contacts {
-  font-style: normal;
+.contacts:hover  {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.contacts:focus {
+  color: #404bbf;
+  text-decoration: underline;
 }
