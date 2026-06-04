@@ -1,0 +1,9 @@
+#portfolio {
+    padding: 80px 40px;
+}
+
+#portfolio ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

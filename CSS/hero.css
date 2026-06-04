@@ -1,0 +1,19 @@
+#hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: #2e2f42;
+    color: #ffffff;
+}
+
+#hero button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: none;
+    background-color: #4d5ae5;
+    color: #ffffff;
+}
+
+#hero button:hover,
+#hero button:focus {
+    background-color: #404bbf;
+}
