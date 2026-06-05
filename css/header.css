@@ -2,6 +2,7 @@
   background-color: #ffffff;
 }
 
+/* LOGO */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -16,12 +17,12 @@
   color: #2e2f42;
 }
 
-.nav-list,
-.contacts-list {
-  list-style: none;
- 
+/* CONTACT FIX */
+.contacts {
+  font-style: normal;
 }
 
+/* NAV */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -30,6 +31,12 @@
   color: #2e2f42;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* CONTACT LINKS */
 .contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -38,11 +45,7 @@
   color: #434455;
 }
 
-.contacts:hover  {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
-  text-decoration: underline;
-}
-.contacts:focus {
-  color: #404bbf;
-  text-decoration: underline;
 }
